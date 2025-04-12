@@ -1,0 +1,51 @@
+
+.raleway{
+    font-family: "Raleway", sans-serif;
+  }
+
+  .inter-font{
+    font-family: "Inter", sans-serif;
+  }
+  
+.greenBg{
+    background-color: #1DD100;
+}
+.greenText{
+   color: #1DD100;
+}
+
+.stickerStyle{
+    border-radius: 16px;
+    border-bottom:  5px solid #1DD100;
+}
+
+.greenBorder{
+    display: flex;
+    align-items: center;
+    border: 1px solid #1DD100;
+    color: #1DD100;
+    border-radius: 0.5rem;
+    padding: 2rem 0 ;
+}
+
+.position{
+    position: relative;
+    bottom: 85px;
+}
+
+.couponCss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0 4rem;
+    border-radius: 1.5rem;
+    width: 37rem;
+}
+
+
+
+
+
+
+
