@@ -1,16 +1,22 @@
-
 .raleway{
     font-family: "Raleway", sans-serif;
   }
 
-  .inter-font{
+.inter-font{
     font-family: "Inter", sans-serif;
   }
   
 .greenBg{
     background-color: #1DD100;
 }
+.hover-greenBg:hover{
+    background-color: #1DD100;
+    color: white;
+    
+}
+
 .greenText{
+    color: ;
    color: #1DD100;
 }
 

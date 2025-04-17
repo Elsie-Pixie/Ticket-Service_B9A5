@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Font -->
+     <!-- Raleway and Inter -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+     <!-- fontawesome-cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- Tailwind CSS -->
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="bg-white px-8 py-5 w-11/12 mx-auto rounded-2xl shadow-sm grid grid-cols-3 gap-5">
+        <div class="col-span-2">
+            <div>
+                <h2 class="text-2xl font-semibold text-neutral-600">Select Your Seat</h2>
+            </div>
+            <div class="border-b-2 border-dashed my-4"></div>
+            <div class="flex justify-between items-center">
+                <p>
+                    <i class="fa-solid fa-couch"></i>
+                    <span>Available</span>
+                </p>
+                <p class="greenText">
+                    <i class="fa-solid fa-couch"></i>
+                    <span>Selected</span>
+                </p>
+            </div>
+            <div class="border-b-2 border-dashed my-4"></div>
+            <!-- section:seat-button-starts-here  -->
+         <section class="">
+            <!-- front seat -->
+             <div class="flex justify-end items-center text-right">
+                <button class="btn"></button>
+                <button class="btn text-center bg-neutral-200 rounded-lg w-28"><p class=""><img src="./images/Vector.png" class="w-max" alt=""></p></button>  
+            </div>
+            <br>
+            <!-- select-your-seat-section -->
+             <div class="flex flex-col gap-5">
+                    <!-- row-A -->
+                <div class=" flex justify-between">
+                    <div class="flex gap-5">
+                        <button class="px-4 font-semibold text-neutral-600 w-6">A</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">A1</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">A2</button>
+                    </div>
+                    <div class="flex gap-5">
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">A3</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">A4</button>
+                    </div>
+                </div>
+                <!-- row-B -->
+                <div class=" flex justify-between">
+                    <div class="flex gap-5">
+                        <button class="px-4 font-semibold text-neutral-600 w-6">B</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">B1</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">B2</button>
+                    </div>
+                    <div class="flex gap-5">
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">B3</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">B4</button>
+                    </div>
+                </div>
+                <!-- row-C -->
+                <div class=" flex justify-between">
+                    <div class="flex gap-5">
+                        <button class="px-4 font-semibold text-neutral-600 w-6">C</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">C1</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">C2</button>
+                    </div>
+                    <div class="flex gap-5">
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">C3</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">C4</button>
+                    </div>
+                </div>
+                <!-- row-D -->
+                <div class=" flex justify-between">
+                    <div class="flex gap-5">
+                        <button class="px-4 font-semibold text-neutral-600 w-6">D</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">D1</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">D2</button>
+                    </div>
+                    <div class="flex gap-5">
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">D3</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">D4</button>
+                    </div>
+                </div>
+                <!-- row-E -->
+                <div class=" flex justify-between">
+                    <div class="flex gap-5">
+                        <button class="px-4 font-semibold text-neutral-600 w-6">E</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">E1</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">E2</button>
+                    </div>
+                    <div class="flex gap-5">
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">E3</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">E4</button>
+                    </div>
+                </div>
+                <!-- row-F -->
+                <div class=" flex justify-between">
+                    <div class="flex gap-5">
+                        <button class="px-4 font-semibold text-neutral-600 w-6">F</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">F1</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">F2</button>
+                    </div>
+                    <div class="flex gap-5">
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">F3</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">F4</button>
+                    </div>
+                </div>
+                <!-- row-G -->
+                <div class=" flex justify-between">
+                    <div class="flex gap-5">
+                        <button class="px-4 font-semibold text-neutral-600 w-6">G</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">G1</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">G2</button>
+                    </div>
+                    <div class="flex gap-5">
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">G3</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">G4</button>
+                    </div>
+                </div>
+                <!-- row-H -->
+                <div class=" flex justify-between">
+                    <div class="flex gap-5">
+                        <button class="px-4 font-semibold text-neutral-600 w-6">H</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">H1</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">H2</button>
+                    </div>
+                    <div class="flex gap-5">
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">H3</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">H4</button>
+                    </div>
+                </div>
+                <!-- row-I -->
+                <div class=" flex justify-between">
+                    <div class="flex gap-5">
+                        <button class="px-4 font-semibold text-neutral-600 w-6">I</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">I1</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">I2</button>
+                    </div>
+                    <div class="flex gap-5">
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">I3</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">I4</button>
+                    </div>
+                </div>
+                <!-- row-J -->
+                <div class=" flex justify-between">
+                    <div class="flex gap-5">
+                        <button class="px-4 font-semibold text-neutral-600 w-6">J</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">J1</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">J2</button>
+                    </div>
+                    <div class="flex gap-5">
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">J3</button>
+                        <button class="btn px-10 bg-neutral-200 text-neutral-600 rounded-lg hover-greenBg font-semibold w-28">J4</button>
+                    </div>
+                </div>
+             </div>
+            
+         </section>
+        </div>
+        <div class="bg-green-500">input section</div>
+
+        
+      </section>
+</body>
+</html>
