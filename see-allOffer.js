@@ -20,3 +20,4 @@ document.getElementById('terms').addEventListener('click', function(){
     document.getElementById('terms-des').scrollIntoView({behavior: 'smooth'});
 })
 
+
